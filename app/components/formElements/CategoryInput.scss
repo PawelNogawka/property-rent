@@ -1,0 +1,50 @@
+@import "../../variables";
+
+.category-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.8rem;
+  border: 0.1rem solid $gray;
+  border-radius: $border-radius;
+  transition: border 0.3rem ease;
+
+  &--selected {
+    box-shadow: 0px 1px 2px $main, 0px 0px 0px 2px $main;
+  }
+
+  &--selected:hover {
+    border: 0.1rem solid $gray;
+    box-shadow: none;
+  }
+
+  &:hover {
+    border: 0.1rem solid $dark-text;
+  }
+
+  &__left {
+    flex: 1;
+  }
+  svg {
+    color: $dark-text;
+  }
+
+  &__right {
+    flex: 8;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__name {
+    color: $dark-text;
+  }
+
+  &__desc {
+    color: $light-text;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}

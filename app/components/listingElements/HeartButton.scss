@@ -1,0 +1,24 @@
+@import "../../variables";
+
+.heart-button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #585755;
+
+  &--liked {
+    background-color: $main;
+  }
+
+  svg {
+    margin-top: 0.3rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../variables";
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding-bottom: 2rem;
+  transition: color 0.3s ease;
+  color: $light-text;
+
+  &:hover{
+    color: $dark-text;
+  }
+
+
+  &__name {
+    font-size: 1.4rem;
+  }
+
+  &--selected {
+    svg {
+      color: $main;
+    }
+
+    .category__name {
+      color: $main;
+    }
+  }
+}

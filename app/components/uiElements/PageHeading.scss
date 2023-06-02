@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.page-heading {
+  margin-bottom: 3rem;
+  &__title {
+    font-size: min(7.5vw, 3rem);
+  //  margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    color: $light-text;
+  }
+}

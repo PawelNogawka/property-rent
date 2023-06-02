@@ -1,0 +1,50 @@
+@import '../../variables';
+
+.search {
+  position: relative;
+  width: 20rem;
+  height: auto;
+
+
+  .input{
+    input{
+      width: 100%;
+    }
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $light-text;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+
+    svg {
+      color: $main;
+    }
+
+    &:hover {
+      color: $main;
+    }
+  }
+}
+
+
+
+@media(min-width:380px){
+  .search{
+    width: 25rem;
+  }
+}
+
+
+@media(min-width:568px){
+  .search{
+    width: 35rem;
+  }
+}

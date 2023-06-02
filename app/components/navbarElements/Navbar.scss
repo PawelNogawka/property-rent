@@ -1,0 +1,106 @@
+@import "../../variables";
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 1rem;
+  background-color: #fff;
+  z-index: 5;
+  transition: box-shadow 0.3s ease;
+
+  &--box-shadow {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12);
+  }
+
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.7rem;
+    padding-bottom: 1rem;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  &__rent-btn {
+    display: none;
+  }
+
+  &__user-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: .9rem;
+    z-index: 80;
+
+    svg {
+      font-size: 2.6rem;
+      color: $dark-text;
+    }
+
+    img{
+      display: none;
+    }
+  }
+
+  &__user-icon {
+    display: none;
+  }
+}
+
+@media (min-width:400px){
+  .navbar{
+    &__user-btn{
+      img{
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 568px) {
+  .navbar {
+    &__user-btn {
+      gap: 0.7rem;
+      border: 0.1rem solid $gray;
+      border-radius: 3rem;
+      transition: box-shadow 0.3s ease;
+
+      &:hover {
+        box-shadow: $box-shadow;
+      }
+
+      svg {
+        font-size: 2.1rem;
+      }
+    }
+
+    &__user-icon {
+      display: inline;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    &__rent-btn {
+      display: block;
+      font-size: 1.5rem;
+      color: $light-text;
+      transition: 0.2s ease;
+
+      &:hover {
+        color: $dark-text;
+      }
+    }
+  }
+}

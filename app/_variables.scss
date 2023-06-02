@@ -1,0 +1,26 @@
+
+$main: #E9897E;
+$dark-main: #C76D66;
+$dark-text: #41474a;
+$light-text: #838383;
+$gray: #d0d0d2;
+$light-gray: #f8f8f8;
+$error: #eb5757;
+$error-backround: rgba(235, 87, 87, .1);
+$success: #28a745;
+
+// shadows
+
+$box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+// gradients
+$backdrop-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.5) 0%,
+  rgba(0, 0, 0, 0.2) 100%
+);
+
+// other
+
+$border-radius-big: 3rem;
+$border-radius: .4rem;

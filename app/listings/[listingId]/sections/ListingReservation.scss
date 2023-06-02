@@ -1,0 +1,57 @@
+@import "../../../variables";
+
+.listing-reservation {
+  padding-bottom: 3rem;
+  &__price {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1.4rem;
+  }
+  &__price-amount {
+    color: $dark-text;
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+
+  &__price-period {
+    color: $light-text;
+    font-size: 1.6rem;
+  }
+
+  &__btn-box {
+    button {
+      width: 100%;
+    }
+  }
+
+  &__summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.8rem;
+    background-color: #fff;
+    color: $dark-text;
+    
+  }
+
+  &__summary-total {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  &__summary-price {
+    font-size: 2.2rem;
+    font-weight: 500;
+  
+  }
+}
+
+@media(min-width:768px){
+  .listing-reservation{
+    &__price{
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../variables";
+
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.user-nav {
+  position: fixed;
+  top: 7rem;
+  right: 2rem;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  min-width: 20rem;
+  padding: 2rem 1.6rem;
+  box-shadow: $box-shadow;
+  background-color: #fff;
+  border-radius: 0.4rem;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+
+@media(min-width:1300px){
+  .user-nav{
+    right: 6rem;
+  }
+}
+
+
+@media(min-width:1900px){
+  .user-nav{
+    right: 20rem;
+  }
+}

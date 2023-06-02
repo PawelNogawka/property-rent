@@ -1,0 +1,12 @@
+@import '../../../variables';
+
+.listing-map{
+    
+  &__location{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color:$light-text;
+  }
+}

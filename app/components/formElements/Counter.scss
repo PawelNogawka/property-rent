@@ -1,0 +1,70 @@
+@import "../../variables";
+
+.counter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.3rem;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  &__left-top {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__title {
+    margin-top: 0.4rem;
+    font-size: 1.7rem;
+    color: $dark-text;
+  }
+
+  svg {
+    color: $dark-text;
+  }
+
+  &__desc {
+    color: $light-text;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  &__counter {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+
+    button,
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4rem;
+      height: 4rem;
+      text-align: center;
+    }
+  }
+
+  &__amount {
+    color: $light-text;
+    font-size: 1.7rem;
+  }
+
+  &__btn {
+    border-radius: $border-radius;
+    border: 0.1rem solid $gray;
+    color: $dark-text;
+    transition: border 0.2s ease;
+
+    &:not(:disabled):hover {
+      border: 0.1rem solid $dark-text;
+    }
+  }
+}

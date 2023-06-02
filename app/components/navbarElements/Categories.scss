@@ -1,0 +1,15 @@
+.categories {
+  margin-top: 1.8rem;
+  background-color: #fff;
+
+
+  &__list {
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}

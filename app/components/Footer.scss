@@ -1,0 +1,36 @@
+@import "../variables";
+
+.footer {
+  margin-top: 2rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  background-color: $light-gray;
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  &__list {
+    flex: 1 1 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  &__heading {
+    margin-bottom: 1.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  &__link {
+    padding: 0.4rem;
+    color: $light-text;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $dark-text;
+    }
+  }
+}

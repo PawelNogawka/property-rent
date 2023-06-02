@@ -1,0 +1,69 @@
+@import "../../variables";
+
+.btn {
+  padding: 1rem 3rem;
+  background-color: $main;
+  border-radius: $border-radius;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+  transition: all 0.4s ease;
+  font-family: inherit;
+  font-weight: 400;
+
+  &:hover {
+    background-color: $dark-main;
+  }
+
+  &--outline {
+    color: $main;
+    background-color: #fff;
+    border: 0.1rem solid $main;
+
+    &:hover {
+      background-color: $dark-main;
+      color: #fff;
+      border: 0.15rem solid $dark-main;
+    }
+  }
+
+  &--dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: $dark-text;
+    border: 0.15rem solid $dark-text;
+
+    svg {
+      font-size: 1.9rem;
+    }
+
+    &:hover {
+      background-color: $dark-text;
+      color: #fff;
+    }
+  }
+
+  &--empty {
+    color: $main;
+    background-color: #fff;
+    padding: 0.8rem;
+
+    &:hover {
+      color: $dark-main;
+      background-color: #fff;
+    }
+  }
+
+  &--disabled {
+    background-color: $light-gray;
+    color: $dark-text;
+
+    &:hover {
+      background-color: $light-gray;
+      color: $dark-text;
+    }
+  }
+}

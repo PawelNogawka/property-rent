@@ -1,0 +1,118 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 10rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+button {
+  border: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $dark-text;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+p {
+  line-height: 142%;
+}
+
+address {
+  display: inline;
+  font-style: normal;
+}
+
+.main-page {
+  margin-top: 18rem;
+}
+
+.listing-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrCalendarWrapper {
+  font-size: 14px !important;
+  width: 100% !important;
+}
+
+.rdrNextPrevButton {
+  background: #f3f3f4 !important;
+}
+
+.rdrDateDisplayWrapper {
+  background-color: #f3f3f4 !important;
+  border-radius: $border-radius !important;
+}
+
+.rdrDays{
+  border-radius: $border-radius !important;
+}
+
+.listing-page {
+  margin-top: 10rem;
+}
+
+
+@media (min-width: 768px) {
+  .listing-list {
+    gap: 3.5rem 3rem;
+    padding-bottom: 5rem;
+  }
+}
