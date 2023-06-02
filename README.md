@@ -8,10 +8,10 @@ After logging in, the user can list their property for rent by providing categor
 
 This application is inspired by Airbnb, but the design differs significantly.
 
-![Zrzut ekranu z 2023-06-02 o 16 31 42](https://github.com/PawelNogawka/property-rent/assets/10899051![Zrzut ekranu z 2023-06-02 o 16 35 46](https://github.com/PawelNogawka/property-rent![Zrzut ekranu z 2023-06-02 o 16 35 27](https://github.com/PawelNogawka/property-rent/assets/108990517/938ea661-c741-46a0-927b-8b709464858e)
-/assets/108990517/e4b614ae-3edb-4e0f-b6b5-3043efe4ff5e)
-7/2e61a3da-9708-4566-a94a-0![Zrzut ekranu z 2023-06-02 o 16 35 24](https://github.com/PawelNogawka/property-rent/assets/108990517/39573655-ee36-4402-a6b4-a8f6a0fe8367)
-f46edaa464b)
-![Zrzut ekranu z 2023-06-02 o 16 31 51](https://github.com/PawelNogawka/property-rent/assets/108990517/e48d002b-ef01-4edf-884b-2![Zrzut ekranu z 2023-06-02 o 16 35 03](https://github.com/PawelNogawka/property-rent/assets/108990517/b33a5bda-0c72-4633-8d6b-![Zrzut ekranu z 2023-06-02 o 16 35 10](https://github.com/PawelNogawka/property-rent/assets/108990517/ee0a5e2c-1e91-4918-944b-07ccee31076b)
-f7ded470a6ea)
-80b3773e555)
+![Zrzut ekranu z 2023-06-02 o 16 35 10](https://github.com/PawelNogawka/property-rent/assets/108990517/a557f2ed-f7f2-470a-8eff-165784049904)
+![Zrzut ekranu z 2023-06-02 o 16 35 03](https://github.com/PawelNogawka/property-rent/assets/108990517/f9b5784f-96fb-4935-bb5f-a31061488c74)
+![Zrzut ekranu z 2023-06-02 o 16 31 51](https://github.com/PawelNogawka/property-rent/assets/108990517/32883eb0-5523-4df6-884f-5db4873e577f)
+![Zrzut ekranu z 2023-06-02 o 16 31 42](https://github.com/PawelNogawka/property-rent/assets/108990517/c0870c99-d036-4133-9172-65d521e24d18)
+![Zrzut ekranu z 2023-06-02 o 16 35 27](https://github.com/PawelNogawka/property-rent/assets/108990517/700fd99d-e523-49f3-895c-0e0d6178562c)
+![Zrzut ekranu z 2023-06-02 o 16 35 46](https://github.com/PawelNogawka/property-rent/assets/108990517/b3d76d75-8ed9-493a-8e4f-e481023e0a0e)
+![Zrzut ekranu z 2023-06-02 o 16 35 24](https://github.com/PawelNogawka/property-rent/assets/108990517/3a3d576d-971c-453a-9b0e-198f172af7a7)
