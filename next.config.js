@@ -1,33 +1,16 @@
-const path = require("path");
 
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
   images: {
-    domains: ["res.cloudinary.com"],
-  },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.module.rules.push({
-        test: /\.html$/,
-        use: "html-loader",
-      });
-    }
+    domains: [
+      'res.cloudinary.com', 
+      'avatars.githubusercontent.com',
+      'lh3.googleusercontent.com'
+    ]
+  }
+}
 
-    config.module.rules.push({
-      test: /@mapbox\/node-pre-gyp\/lib\/.*\.js$/,
-      loader: "null-loader",
-    });
-
-    config.resolve.alias["@mapbox/node-pre-gyp"] = path.resolve(
-      __dirname,
-      "node_modules/@mapbox/node-pre-gyp/lib/util/nw-pre-gyp"
-    );
-
-    return config;
-  },
-  swcMinify: false,
-  swcLoaderOptions: {
-    jsc: {
-      externalHelpers: true,
-    },
-  },
-};
+module.exports = nextConfig

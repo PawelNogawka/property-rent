@@ -1,7 +1,7 @@
 import getCurrentUser from "@/app/actions/GetCurrentUser";
 import getReservations from "@/app/actions/GetReservations";
 
-import GuestsPage from "./GuestPage";
+import GuestsPage from "../components/pagesElements/GuestPage";
 import EmptyList from "../components/uiElements/EmptyList";
 
 export const metadata = {

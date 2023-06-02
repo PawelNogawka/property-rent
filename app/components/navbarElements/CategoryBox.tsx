@@ -16,7 +16,6 @@ import "./CategoryBox.scss";
 
 const CategoryBox: React.FC<CategoryBoxProps> = ({
   category,
-  description,
   icon: Icon,
   selected,
 }) => {

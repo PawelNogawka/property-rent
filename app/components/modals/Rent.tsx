@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef } from "react";
+import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 
 import { useCreate } from "@/app/hooks/useCreate";
@@ -48,6 +49,8 @@ const Rent: React.FC<RentProps> = ({ setShowModal }) => {
   const [priceError, setPriceError] = useState<string | null>(null);
   const [desc, setDesc] = useState("");
   const [price, setPrice] = useState<string | number>(0);
+
+  const router = useRouter()
 
   const { create, isLoading, error } = useCreate();
 
@@ -142,6 +145,7 @@ const Rent: React.FC<RentProps> = ({ setShowModal }) => {
     await create(url, formData);
 
     setShowModal("");
+    router.push("/properties")
   };
 
   const renderCategoryStep = () => (
@@ -286,11 +290,11 @@ const Rent: React.FC<RentProps> = ({ setShowModal }) => {
       />
 
       <ModalButtons
-        submitBtnValue="Share your flat!"
+        submitBtnValue={!isLoading ? "Share your flat!" : 'Loading...'}
         secondButtonValue="Back"
         handleSecondBtnClick={handlePreviousStepBtnClick}
         handleSubmitBtnClick={handleCreateBtnClick}
-        disabled={!isStepValid()}
+        disabled={!isStepValid() || isLoading}
       />
       {error && <p>{error.message}</p>}
     </div>

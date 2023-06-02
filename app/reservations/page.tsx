@@ -2,7 +2,7 @@ import getCurrentUser from "@/app/actions/GetCurrentUser";
 import getReservations from "@/app/actions/GetReservations";
 import EmptyList from "../components/uiElements/EmptyList";
 
-import ReservationPage from "./ReservationPage";
+import ReservationPage from "../components/pagesElements/ReservationPage";
 
 export default async function UserReservationPage() {
   const currentUser = await getCurrentUser();

@@ -31,6 +31,7 @@ export const useCreate = () => {
       });
       const data = response.data;
       router.refresh()
+  
 
       setIsLoading(false);
     } catch (error) {

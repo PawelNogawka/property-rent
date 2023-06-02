@@ -68,7 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
                 aria-label="Rent home"
                 className="navbar__rent-btn"
               >
-                Rent your dream home!
+                Rent your home!
               </button>
             )}
             <button

@@ -7,7 +7,7 @@ import useCountries from "@/app/hooks/useCountries";
 
 import './ListingMap.scss'
 
-const Map = dynamic(() => import("../../../components/Map"), { ssr: false });
+const Map = dynamic(() => import("../Map"), { ssr: false });
 
 interface ListingMapProps {
   locationValue: any;

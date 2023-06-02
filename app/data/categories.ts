@@ -23,77 +23,82 @@ export const categories = [
   {
     label: "Towers",
     description:
-      "A self-contained unit in a multi-unit building or apartment complex.",
+      "Tall and majestic structures with multiple floors and breathtaking views.",
     icon: GiWhiteTower,
   },
-
   {
     label: "Beach",
     description:
-      "A standalone house designed for a single family or household.",
+      "Stunning beachfront properties for a relaxing and picturesque getaway.",
     icon: FaUmbrellaBeach,
   },
   {
     label: "Modern",
     description:
-      "A multi-level house that shares walls with neighboring units.",
+      "Contemporary houses with sleek designs and modern amenities.",
     icon: GiModernCity,
   },
   {
     label: "Castles",
-    description: "A house divided into two separate living units.",
+    description:
+      "Impressive and grand residences that resemble medieval fortifications.",
     icon: GiCastle,
   },
   {
     label: "Tropical",
-    description: "A privately owned unit within a larger complex or building.",
+    description:
+      "Lush and exotic retreats surrounded by palm trees and tropical landscapes.",
     icon: GiPalmTree,
   },
   {
     label: "Villa",
     description:
-      "A luxurious and spacious house typically located in a resort or upscale area.",
+      "Luxurious and opulent houses found in upscale resorts or exclusive areas.",
     icon: GiElvenCastle,
   },
   {
-    label: "pools",
+    label: "Pools",
     description:
-      "A small, cozy house, often located in a rural or scenic area.",
+      "Charming houses with refreshing pools, perfect for relaxation and recreation.",
     icon: FaSwimmingPool,
   },
   {
     label: "Exotic",
     description:
-      "A self-contained unit in a multi-unit building or apartment complex.",
+      "Unique and extraordinary dwellings set in breathtaking, far-flung locations.",
     icon: GiIsland,
   },
   {
     label: "Farmhouse",
-    description: "A house located on a farm or in a rural agricultural area.",
+    description:
+      "Quaint and cozy homes situated on farms or in picturesque rural areas.",
     icon: GiFarmTractor,
   },
   {
     label: "Camping",
-    description: "A house located on a farm or in a rural agricultural area.",
+    description:
+      "Rustic and adventurous accommodations for an immersive outdoor experience.",
     icon: GiCampCookingPot,
   },
   {
     label: "New",
-    description: "A house located on a farm or in a rural agricultural area.",
+    description:
+      "Brand new and modern houses with the latest architectural styles and features.",
     icon: RiKey2Fill,
   },
   {
     label: "Desert",
-    description: "A house located on a farm or in a rural agricultural area.",
+    description:
+      "Dwellings nestled amidst arid and awe-inspiring desert landscapes.",
     icon: GiDesert,
   },
   {
     label: "Caves",
-    description: "A house located on a farm or in a rural agricultural area.",
+    description:
+      "Unique and extraordinary homes carved into natural cave formations.",
     icon: GiCaveEntrance,
   },
 ];
-
 export const getCategoryByLabel = (label: string) => {
   return categories.find((category) => category.label === label);
 };

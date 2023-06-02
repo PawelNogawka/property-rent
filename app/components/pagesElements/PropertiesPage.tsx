@@ -1,10 +1,10 @@
 import React from 'react'
 import { Listing } from '@prisma/client'
-import { SafeUser } from "../types";
+import { SafeUser } from "../../types";
 
-import PageHeading from "../components/uiElements/PageHeading";
-import Wrapper from "../components/uiElements/Wrapper";
-import ListingsList from '../components/listingElements/ListingsList';
+import PageHeading from "../uiElements/PageHeading";
+import Wrapper from "../uiElements/Wrapper";
+import ListingsList from '../listingElements/ListingsList';
 
 interface FavoritesPageProps{
     listings:Listing[]  | [],

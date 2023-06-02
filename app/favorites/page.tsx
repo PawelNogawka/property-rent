@@ -1,7 +1,7 @@
 import getCurrentUser from "@/app/actions/GetCurrentUser";
 import getFavoriteListings from "../actions/GetFavoriteListings";
 
-import FavoritesPage from "./FavoritesPage";
+import FavoritesPage from "../components/pagesElements/FavoritesPage";
 import EmptyList from "../components/uiElements/EmptyList";
 
 export const metadata = {

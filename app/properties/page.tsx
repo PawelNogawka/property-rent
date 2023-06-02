@@ -1,7 +1,7 @@
 import getCurrentUser from "@/app/actions/GetCurrentUser";
 import getUserListings from "../actions/GetUserListings";
 
-import ProperiesPage from "./PropertiesPage";
+import ProperiesPage from "../components/pagesElements/PropertiesPage";
 import EmptyList from "../components/uiElements/EmptyList";
 
 export const metadata = {

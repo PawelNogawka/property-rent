@@ -3,7 +3,7 @@ import getCurrentUser from "@/app/actions/GetCurrentUser";
 import getListingById from "@/app/actions/GetListingById";
 import getReservations from "@/app/actions/GetReservations";
 
-import ListingDetails from "./ListingDetails";
+import ListingDetails from "../../components/pagesElements/ListingDetails";
 import EmptyList from "@/app/components/uiElements/EmptyList";
 
 interface IParams {

@@ -5,9 +5,9 @@ import Wrapper from "@/app/components/uiElements/Wrapper";
 import { Listing, User, Reservation } from "@prisma/client";
 import { SafeUser } from "@/app/types";
 
-import ListingHeader from "./sections/ListingHeader";
-import ListingMap from "./sections/ListingMap";
-import ListingReservation from "./sections/ListingReservation";
+import ListingHeader from "./ListingHeader";
+import ListingMap from "./ListingMap";
+import ListingReservation from "./ListingReservation";
 import Auth from "@/app/components/modals/Auth";
 
 import "./ListingDetails.scss";

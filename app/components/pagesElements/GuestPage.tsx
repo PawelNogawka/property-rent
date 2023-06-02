@@ -4,12 +4,12 @@ import { useState } from "react";
 
 import { Listing, Reservation } from "@prisma/client";
 
-import ListingItem from "../components/listingElements/ListingItem";
-import PageHeading from "../components/uiElements/PageHeading";
-import Wrapper from "../components/uiElements/Wrapper";
-import Auth from "../components/modals/Auth";
+import ListingItem from "../listingElements/ListingItem";
+import PageHeading from "../uiElements/PageHeading";
+import Wrapper from "../uiElements/Wrapper";
+import Auth from "../modals/Auth";
 
-import { SafeUser } from "../types";
+import { SafeUser } from "../../types";
 
 interface ReservationPageProps {
   reservations: (Reservation & { listing: Listing })[];
