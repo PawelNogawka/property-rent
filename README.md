@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Live Site : https://property-rent-b6g4p1wcu-pawelnogawka.vercel.app/
 
-## Getting Started
+The application uses technologies like TypeScript, React, Next.js, MongoDB, Prisma, and SCSS.
 
-First, run the development server:
+ User can register using Google, GitHub, or through their email address.
+ 
+After logging in, the user can list their property for rent by providing categories, price, location, title, description, and details related to their property. The user can add properties to their favorites and make reservations for the properties.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This application is inspired by Airbnb, but the design differs significantly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Zrzut ekranu z 2023-06-02 o 16 31 42](https://github.com/PawelNogawka/property-rent/assets/10899051![Zrzut ekranu z 2023-06-02 o 16 35 46](https://github.com/PawelNogawka/property-rent![Zrzut ekranu z 2023-06-02 o 16 35 27](https://github.com/PawelNogawka/property-rent/assets/108990517/938ea661-c741-46a0-927b-8b709464858e)
+/assets/108990517/e4b614ae-3edb-4e0f-b6b5-3043efe4ff5e)
+7/2e61a3da-9708-4566-a94a-0![Zrzut ekranu z 2023-06-02 o 16 35 24](https://github.com/PawelNogawka/property-rent/assets/108990517/39573655-ee36-4402-a6b4-a8f6a0fe8367)
+f46edaa464b)
+![Zrzut ekranu z 2023-06-02 o 16 31 51](https://github.com/PawelNogawka/property-rent/assets/108990517/e48d002b-ef01-4edf-884b-2![Zrzut ekranu z 2023-06-02 o 16 35 03](https://github.com/PawelNogawka/property-rent/assets/108990517/b33a5bda-0c72-4633-8d6b-![Zrzut ekranu z 2023-06-02 o 16 35 10](https://github.com/PawelNogawka/property-rent/assets/108990517/ee0a5e2c-1e91-4918-944b-07ccee31076b)
+f7ded470a6ea)
+80b3773e555)
